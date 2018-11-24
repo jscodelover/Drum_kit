@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+}
+
+.bg { 
+    background-image: url("bg_stage.jpg");
+    height: 100%; 
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+@media only screen and (max-width: 765px) {
+    .btn_container {
+    	width: 364px;
+    	height: 80%;
+    	margin: auto;
+    }
+}
+
+@media only screen and (min-width: 765px) {
+    .btn_container {
+    	height: 100%;
+    }
+}
+.btn_container{
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.box{
+	  display: inline-block;
+	  border: 3px solid #000;
+	  width: 70px;
+	  height: 80px;
+	  text-align: center;
+	  cursor: pointer;
+	  user-select: none;
+	  transition: all 0.07s;
+}
+
+.headTxt{
+	font-size: 3rem;
+	display: block;
+	color: #f19219;
+}
+
+.txt{
+	color: #e28905;
+}
+
+.playing{
+	  border: 3px solid  #ef8e00;
+	  box-shadow:15px 8px 55px #ef8e00;
+	  transform:scale(1.2,1.2);
+}

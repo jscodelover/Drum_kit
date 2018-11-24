@@ -8,8 +8,50 @@
 	</head>
 	<body>
 		<div class="bg">
-			
+			<div class="btn_container">
+				<div class="box" id="key65" onclick="key_click(65)">
+					<span class="headTxt ">A</span>
+					<span class="txt">Boom</span>
+				</div>
+				<div class="box" id="key83" onclick="key_click(83)">
+					<span class="headTxt">S</span>
+					<span class="txt">Clap</span>
+				</div>	
+				<div class="box" id="key68" onclick="key_click(68)">
+					<span class="headTxt">D</span>
+					<span class="txt">openhat</span>
+				</div>	
+				<div class="box" id="key70" onclick="key_click(70)">
+					<span class="headTxt">F</span>
+					<span class="txt">Snare</span>
+				</div>	
+				<div class="box" id="key71" onclick="key_click(71)">
+					<span class="headTxt">G</span>
+					<span class="txt">Ride</span>
+				</div>	
+				<div class="box" id="key72" onclick="key_click(72)">
+					<span class="headTxt">H</span>
+					<span class="txt">Hihat</span>
+				</div>
+				<div class="box" id="key74" onclick="key_click(74)">
+					<span class="headTxt">J</span>	
+					<span class="txt">Tom</span>
+				</div>	
+				<div class="box" id="key75" onclick="key_click(75)">
+					<span class="headTxt">K</span>
+					<span class="txt">Kick</span>
+				</div>				
+			</div>
 		</div>	
+		<audio id='65' src="sound/boom.wav"></audio>
+		<audio id='83' src="sound/clap.wav"></audio>
+		<audio id='72' src="sound/hihat.wav"></audio>
+		<audio id='75' src="sound/kick.wav"></audio>
+		<audio id='68' src="sound/openhat.wav"></audio>
+		<audio id='71' src="sound/ride.wav"></audio>
+		<audio id='70' src="sound/snare.wav"></audio>
+		<audio id='74' src="sound/tom.wav"></audio>
+
 		<script src="main.js"></script>
 	</body>
 </html>
